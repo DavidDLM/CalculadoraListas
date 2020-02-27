@@ -1,7 +1,11 @@
 /**
- * Funciones de Node para listas
- * extraido de 
- * Duane A. Bailey. (2007) Java Structures (The 7 Edition)
+ * Codigo extraido de:
+ * Titulo: Funciones de Node para listas
+ * Autor/Fecha: Duane A. Bailey. (2007) 
+ * Fuente: Java Structures (The 7 Edition)
+ * 
+ * 
+ * Funciones de la clase Node, implementada en las clases Listas
  */
 public class Node<E>{
    protected E element; // value stored in this element

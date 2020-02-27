@@ -1,14 +1,21 @@
 /**
- * Contrato de Node doble para uso en listas 
- * extraido de 
- * Duane A. Bailey. (2007) Java Structures (The 7 Edition)
+ * Codigo extraido de:
+ * Titulo: DoublyLinkedNode
+ * @author Duane A. Bailey
+ * Fecha: 2007
+ * Fuente: Java Structures (The 7 Edition)
  */
-public class DoublyLinkedNode<E>{
+public class DoublyLinkedNode<E> extends Node<E>{
 	
 
 	protected E data;
 	protected DoublyLinkedNode<E> nextElement;
 	protected DoublyLinkedNode<E> previousElement;
+	
+	public DoublyLinkedNode(E v) {
+		// post: constructs a single element{
+		    this(v,null,null);
+		}
 	
 	public DoublyLinkedNode(E v, DoublyLinkedNode<E> next, DoublyLinkedNode<E> previous){
 	    data = v;
@@ -20,8 +27,4 @@ public class DoublyLinkedNode<E>{
 	        previousElement.nextElement = this;
 	}
 	
-	public DoublyLinkedNode(E v) {
-	// post: constructs a single element{
-	    this(v,null,null);
-	}
 }

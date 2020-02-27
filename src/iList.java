@@ -1,8 +1,11 @@
 import java.util.Iterator;
 
 /**
- * @author Usuario Dell
- *
+ * Codigo extraido de:
+ * Titulo: List Interface
+ * @author Duane A. Bailey
+ * Fecha: 2007
+ * Fuente: Java Structures (The 7 Edition)
  */
 public interface iList<E> {
 	public int size();

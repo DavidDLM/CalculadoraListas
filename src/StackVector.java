@@ -1,5 +1,5 @@
 /**
- * Contrato de Stack implementado con Vector 
+ * Funciones de Stack implementado con Vector 
  * extraido de 
  * Duane A. Bailey. (2007) Java Structures (The 7 Edition)
  */

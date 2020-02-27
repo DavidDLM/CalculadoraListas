@@ -1,3 +1,10 @@
+/**
+ * @author Mario de Leon
+ * @author Mariana Morales
+ *
+ *
+ *Factory class for Stack
+ */
 public class StackFactory<E> {
 	
    //use getShape method to get object of type shape 

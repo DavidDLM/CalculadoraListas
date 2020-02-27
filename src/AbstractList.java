@@ -1,7 +1,12 @@
-
 /**
- * @author Usuario Dell
- *
+ * Codigo extraido de:
+ * Titulo: Abstract List
+ * @author Duane A. Bailey
+ * Date: 2007
+ * Fuente: Java Structures (The 7 Edition)
+ * 
+ * 
+ * Estas funciones se comparten por todas las implementaciones de iList
  */
 public abstract class AbstractList<E> implements iList<E> {
 	public AbstractList() {

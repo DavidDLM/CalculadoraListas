@@ -1,9 +1,11 @@
 import java.util.Iterator;
 
 /**
- * zFunciones de Lista simplemente enlazada
- * extraido de 
- * Duane A. Bailey. (2007) Java Structures (The 7 Edition)
+ * Codigo extraido de:
+ * Titulo: Funciones de Lista Circular
+ * @author Duane A. Bailey
+ * Fecha: 2007
+ * Fuente: Java Structures (The 7 Edition)
  */
 public class singlyLinkedList<E> extends AbstractList<E>{
 

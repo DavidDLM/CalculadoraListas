@@ -2,6 +2,8 @@
  * @author Mario de Leon
  * @author Mariana Morales
  *
+ *
+ *Funciones basicas de una calculadora
  */
 public class CalculadoraFunciones implements iCalculadora{
 

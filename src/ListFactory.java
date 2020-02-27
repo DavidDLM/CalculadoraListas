@@ -1,3 +1,8 @@
+/**
+ * @author Mario de Leon
+ * @author Mariana Morales
+ *
+ */
 public class ListFactory<E> {
 	
    //use getShape method to get object of type shape 

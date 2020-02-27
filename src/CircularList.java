@@ -1,20 +1,24 @@
 import java.util.Iterator;
 
 /**
- * Funciones de Lista Circular
- * extraido de 
- * Duane A. Bailey. (2007) Java Structures (The 7 Edition)
+ * Codigo extraido de:
+ * Titulo: Funciones de Lista Circular
+ * @author Duane A. Bailey
+ * Fecha: 2007
+ * Fuente: Java Structures (The 7 Edition)
  */
 public class CircularList<E> extends AbstractList<E>{
 
 	protected Node<E> tail; 
 	protected int count;
+	private int size;
 	
 	public CircularList()
 	// pre: constructs a new circular list
 	{
 	   tail = null;
 	   count = 0;
+	   size = 0;
 	}
 	
 	public void addFirst(E value)
@@ -69,7 +73,7 @@ public class CircularList<E> extends AbstractList<E>{
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
-		return 0;
+		return size;
 	}
 
 	@Override
@@ -87,7 +91,7 @@ public class CircularList<E> extends AbstractList<E>{
 	@Override
 	public E getLast() {
 		// TODO Auto-generated method stub
-		return null;
+		return tail.value();
 	}
 
 	@Override
