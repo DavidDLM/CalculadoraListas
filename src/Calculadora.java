@@ -413,14 +413,14 @@ public class Calculadora {
  			         			
  			         				int A = simple.getFirst();
  			         				simple.removeFirst();
- 			         				System.out.println(A);
- 			         				System.out.println(simple.size());
+ 			         				//System.out.println(A);
+ 			         				//System.out.println(simple.size());
  			         						         				
  			         				int B = simple.getFirst();
- 			         				System.out.println(B);
- 			         				System.out.println(simple.getFirst());
+ 			         				//System.out.println(B);
+ 			         				//System.out.println(simple.getFirst());
  			         				simple.removeFirst();
-			         				System.out.println(simple.size());
+ 			         				//System.out.println(simple.size());
 			         				
  			         				simple.addFirst(calculadora.sumar(B, A));
  			         				
@@ -436,7 +436,7 @@ public class Calculadora {
  			         				//System.out.println(simple.size());
  			         				
  			         				int B = simple.getFirst();
- 			         				//simple.removeFirst();
+ 			         				simple.removeFirst();
  			         				//System.out.println(A);
 			         				//System.out.println(simple.size());
 			         				
@@ -453,7 +453,7 @@ public class Calculadora {
  			         				//System.out.println(simple.size());
  			         				
  			         				int B = simple.getFirst();
- 			         				//simple.removeFirst();
+ 			         				simple.removeFirst();
  			         				//System.out.println(A);
 			         				//System.out.println(simple.size());
 			         				
@@ -470,9 +470,9 @@ public class Calculadora {
  			         				//System.out.println(simple.size());
  			         				
  			         				int B = simple.getFirst();
- 			         				//simple.removeFirst();
+ 			         				simple.removeFirst();
  			         				//System.out.println(A);
-			         				//System.out.println(simple.size());
+			         				System.out.println(simple.size());
 			         				
  			         				simple.addFirst(calculadora.dividir(B, A));
  			         				
@@ -494,7 +494,7 @@ public class Calculadora {
  	         		}
  	         	}
  	        	
- 	        	if(simple.size()==1) {
+ 	        	if(simple.size()== 1) {
  	        		System.out.println("\nResultado: "+ simple.getFirst());
  	        	}
  	         }
