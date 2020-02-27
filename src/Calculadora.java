@@ -539,14 +539,14 @@ public class Calculadora {
    			         			
    			         				int B = circular.getLast();
    			         				circular.removeLast();
-   			         				System.out.println(B);
-   			         				System.out.println(circular.size());
+   			         				//System.out.println(B);
+   			         				//System.out.println(circular.size());
    			         						         				
    			         				int A = circular.getLast();
-   			         				System.out.println(A);
-   			         				System.out.println(circular.getLast());
+   			         			//System.out.println(A);
+   			         			//System.out.println(circular.getLast());
    			         				circular.removeLast();
-  			         				System.out.println(circular.size());
+   			         			//System.out.println(circular.size());
   			         				
   			         				circular.addLast(calculadora.sumar(A, B));
    			         				
@@ -558,14 +558,14 @@ public class Calculadora {
    			         			
 			         				int B = circular.getLast();
 			         				circular.removeLast();
-			         				System.out.println(B);
-			         				System.out.println(circular.size());
+			         				//System.out.println(B);
+			         				//System.out.println(circular.size());
 			         						         				
 			         				int A = circular.getLast();
-			         				System.out.println(A);
-			         				System.out.println(circular.getLast());
+			         				//System.out.println(A);
+			         				//System.out.println(circular.getLast());
 			         				circular.removeLast();
-			         				System.out.println(circular.size());
+			         				//System.out.println(circular.size());
 			         				
 			         				circular.addLast(calculadora.restar(A, B));
 			         				
@@ -577,14 +577,14 @@ public class Calculadora {
 	   			         			
 			         				int B = circular.getLast();
 			         				circular.removeLast();
-			         				System.out.println(B);
-			         				System.out.println(circular.size());
+			         				//System.out.println(B);
+			         				//System.out.println(circular.size());
 			         						         				
 			         				int A = circular.getLast();
-			         				System.out.println(A);
-			         				System.out.println(circular.getLast());
+			         				//System.out.println(A);
+			         				//System.out.println(circular.getLast());
 			         				circular.removeLast();
-			         				System.out.println(circular.size());
+			         				//System.out.println(circular.size());
 			         				
 			         				circular.addLast(calculadora.multiplicar(A, B));
 			         				
@@ -595,14 +595,14 @@ public class Calculadora {
 	   			         			
 			         				int B = circular.getLast();
 			         				circular.removeLast();
-			         				System.out.println(B);
-			         				System.out.println(circular.size());
+			         				//System.out.println(B);
+			         				//System.out.println(circular.size());
 			         						         				
 			         				int A = circular.getLast();
-			         				System.out.println(A);
-			         				System.out.println(circular.getLast());
+			         				//System.out.println(A);
+			         				//System.out.println(circular.getLast());
 			         				circular.removeLast();
-			         				System.out.println(circular.size());
+			         				//System.out.println(circular.size());
 			         				
 			         				circular.addLast(calculadora.dividir(A, B));
 			         				
@@ -622,7 +622,7 @@ public class Calculadora {
    	         		}
    	         	}
    	        	
-   	        	if(circular.size()==0) {
+   	        	if(circular.size()>=0) {
    	        		System.out.println("\nResultado: "+ circular.getLast());
    	        	}
    	         }
